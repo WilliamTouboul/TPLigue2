@@ -1,0 +1,40 @@
+html,
+body {
+    background-color: #f0f0f0;
+} /* Couleur de fond */
+
+h1 {
+    text-align: center;
+}
+#firstRow {
+    background: #091C3E;
+    color : white;
+}
+#row2,#row3 {
+    background-color: #E6E6E6;
+    margin-top: 1px;
+}
+td {
+    text-align: center;
+}
+.clubName {
+    text-align: left;
+}
+
+/* cercle de couleur pour la derniere colonne */
+.greenCircle, .greenArrow {
+    color : #21CD36;
+}
+.redCircle {
+    color: #EC292B;
+}
+.neutralCircle {
+    color : #ABABAB;
+}
+
+@media screen and (max-width: 414px) {
+    .nonEssential {
+        display: none;
+    }
+
+}
