@@ -1,40 +1,74 @@
 html,
 body {
-    background-color: #f0f0f0;
-} /* Couleur de fond */
+    font-family: Heebo, sans-serif;
+    font-size: 16px;
+    background-color: #E0E0E0;
+}
+
+/* Couleur de fond */
 
 h1 {
     text-align: center;
 }
+
 #firstRow {
     background: #091C3E;
-    color : white;
+    color: white;
 }
-#row2,#row3 {
+
+#row2,
+#row3 {
     background-color: #E6E6E6;
     margin-top: 1px;
 }
+
+.lastRows {
+    background-color: #808080;
+}
+
+#justBeforeLastRow {
+    background-color: #B3B3B3;
+}
+
+footer {
+    background-color: #091C3E;
+}
+
 td {
     text-align: center;
+    vertical-align: middle;
 }
+
 .clubName {
     text-align: left;
 }
 
 /* cercle de couleur pour la derniere colonne */
-.greenCircle, .greenArrow {
-    color : #21CD36;
+.greenCircle,
+.greenArrow {
+    color: #21CD36;
 }
-.redCircle {
+
+.redCircle,
+.redArrow {
     color: #EC292B;
 }
+
 .neutralCircle {
-    color : #ABABAB;
+    color: #ABABAB;
 }
 
-@media screen and (max-width: 414px) {
-    .nonEssential {
+@media screen and (max-width: 560px) {
+    .mobileHide {
         display: none;
     }
+    img {
+        width: 30px;
+        height: 30px;
+    }
 
+    svg {
+        width: 10px;
+        height: 10px;
+    }
 }
